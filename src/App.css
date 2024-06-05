@@ -1,38 +1,119 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: linear-gradient(135deg, #141e30, #243b55); /* Nice gradient background */
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .App {
   text-align: center;
+  width: 100%;
+}
+
+.App-content {
+  width: 100%;
+  max-width: 1200px;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 150px; /* Make the logo bigger */
+  width: auto; /* Maintain aspect ratio */
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  margin: 20px 0; /* Add some margin to ensure visibility */
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding: 20px;
+}
+
+.Restaurant-name {
+  color: #ffffff; /* White text for the restaurant name */
+  margin: 10px 0;
+}
+
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+}
+
+.item-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+@media (max-width: 1200px) {
+  .item-container {
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row for medium screens */
+  }
+}
+
+@media (max-width: 900px) {
+  .item-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row for smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .item-container {
+    grid-template-columns: 1fr; /* 1 item per row for mobile screens */
+  }
+}
+
+
+
+.card, .item-card {
+  background: #141e30; /* New background color */
+  color: #ffffff; /* White text */
+  border: 1px solid #141e30; /* Border to match the background */
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+  text-align: center; /* Center the text and icon */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.card:hover, .item-card:hover {
+  transform: scale(1.05);
+  background-color: #1b283a; /* Slightly darker shade on hover */
+}
+
+h1 {
+  width: 100%;
+}
+
+h2 {
+  margin: 10px 0 0 0; /* Add margin to separate from the icon */
+}
+
+.item-image {
+  width: 100%;
+  height: 150px; /* Fixed height for images */
+  object-fit: cover; /* Cover the area, cropping if necessary */
+  border-radius: 10px; /* Rounded corners for images */
+  margin-bottom: 10px;
+}
+
+.back-arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #ffffff; /* White color */
+  text-decoration: none;
 }
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
