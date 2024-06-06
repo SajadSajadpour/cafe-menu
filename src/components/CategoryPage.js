@@ -26,7 +26,7 @@ const categoryItems = {
     { name: 'Shisha 8', price: '$20', image: '/images/image123.jpeg' },
   ],
   desserts: [
-    { name: 'Dessert 1', price: '$8', image: 'public/images/cheesecake.jpeg' },
+    { name: 'Dessert 1', price: '$8', image: '/images/cheesecake.jpeg' },
     { name: 'Dessert 2', price: '$9', image: '/images/cheesecake.jpeg' },
     { name: 'Dessert 3', price: '$7', image: '/images/cheesecake.jpeg' },
     { name: 'Dessert 4', price: '$8', image: '/images/cheesecake.jpeg' },
