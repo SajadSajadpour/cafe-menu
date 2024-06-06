@@ -4,7 +4,7 @@ import { Link, useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
-import mango from './cafe-menu/Images/mango.jpeg';
+import mango from '../Images/mango.jpeg';
 import cheesecake from '../Images/cheesecake.jpeg';
 import shisha from '../Images/image123.jpeg';
 import snacks from '../Images/snacks.jpeg';
