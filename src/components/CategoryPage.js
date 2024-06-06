@@ -61,11 +61,10 @@ const CategoryPage = () => {
         <Link to="/" className="back-arrow">
           <FontAwesomeIcon icon={faArrowLeft} size="2x" />
         </Link>
-        <h1>{category.charAt(0).toUpperCase() + category.slice(1)} Menu</h1>
+        <h1>{category.charAt(0).toUpperCase() + category.slice(1)} </h1>
         <div className="item-container">
           {items.map((item, index) => (
             <div key={index} className="item-card">
-                {/* <img src={require('../Images/mango.jpeg')} /> */}
               <img src={item.image} alt={item.name} className="item-image" />
               <h2>{item.name}</h2>
               <p>{item.price}</p>
