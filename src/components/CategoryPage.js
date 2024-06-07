@@ -121,21 +121,25 @@ const CategoryPage = () => {
     const items = categoryItems[category] || [];
   
     return (
-      <div className="container">
-        <Link to="/" className="back-arrow">
-          <FontAwesomeIcon icon={faArrowLeft} size="2x" />
-        </Link>
-        <h1>{category.charAt(0).toUpperCase() + category.slice(1)} </h1>
-        <div className="item-container">
-          {items.map((item, index) => (
-            <div key={index} className="item-card">
-              <img src={item.image} alt={item.name} className="item-image" />
-              <h2>{item.name}</h2>
-              <p>{item.price}</p>
-            </div>
-          ))}
+      <>
+        <div className="toolbar">
+          <Link to="/" className="back-arrow">
+            <FontAwesomeIcon icon={faArrowLeft} size="2x" />
+          </Link>
+          <h1>{category.charAt(0).toUpperCase() + category.slice(1)} Menu</h1>
         </div>
-      </div>
+        <div className="container">
+          <div className="item-container">
+            {items.map((item, index) => (
+              <div key={index} className="item-card">
+                <img src={item.image} alt={item.name} className="item-image" />
+                <h2>{item.name}</h2>
+                <p>{item.price}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </>
     );
   };
 
