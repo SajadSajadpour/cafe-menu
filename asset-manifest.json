@@ -1,19 +1,23 @@
 {
   "files": {
     "main.css": "/cafe-menu/static/css/main.8e2eb0f8.css",
-    "main.js": "/cafe-menu/static/js/main.d8b066de.js",
+    "main.js": "/cafe-menu/static/js/main.f3039f6e.js",
     "static/js/453.66486f9d.chunk.js": "/cafe-menu/static/js/453.66486f9d.chunk.js",
     "static/media/logo.svg": "/cafe-menu/static/media/logo.1402568b458151ea5b90d87e2bd9fce9.svg",
-    "static/media/snacks.jpeg": "/cafe-menu/static/media/snacks.24dca30c21fdd845e655.jpeg",
+    "static/media/Sage.jpeg": "/cafe-menu/static/media/Sage.492af281265f907a4d35.jpeg",
+    "static/media/Spearmint.jpeg": "/cafe-menu/static/media/Spearmint.88d00458c67f243c205e.jpeg",
     "static/media/mango.jpeg": "/cafe-menu/static/media/mango.86cab01255971e3619d5.jpeg",
     "static/media/cheesecake.jpeg": "/cafe-menu/static/media/cheesecake.82e83312e468155e2ef8.jpeg",
+    "static/media/ginger.jpeg": "/cafe-menu/static/media/ginger.e6cc6b2d9ad6d0e56543.jpeg",
+    "static/media/nuts.jpeg": "/cafe-menu/static/media/nuts.cbf462586578dc910186.jpeg",
+    "static/media/iceglass.jpeg": "/cafe-menu/static/media/iceglass.73bffd2f5e0c0840892f.jpeg",
     "index.html": "/cafe-menu/index.html",
     "main.8e2eb0f8.css.map": "/cafe-menu/static/css/main.8e2eb0f8.css.map",
-    "main.d8b066de.js.map": "/cafe-menu/static/js/main.d8b066de.js.map",
+    "main.f3039f6e.js.map": "/cafe-menu/static/js/main.f3039f6e.js.map",
     "453.66486f9d.chunk.js.map": "/cafe-menu/static/js/453.66486f9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e2eb0f8.css",
-    "static/js/main.d8b066de.js"
+    "static/js/main.f3039f6e.js"
   ]
 }
