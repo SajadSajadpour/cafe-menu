@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cafe-menu/static/css/main.8e2eb0f8.css",
-    "main.js": "/cafe-menu/static/js/main.f3039f6e.js",
+    "main.css": "/cafe-menu/static/css/main.bec6b71f.css",
+    "main.js": "/cafe-menu/static/js/main.d7d113a4.js",
     "static/js/453.66486f9d.chunk.js": "/cafe-menu/static/js/453.66486f9d.chunk.js",
     "static/media/logo.svg": "/cafe-menu/static/media/logo.1402568b458151ea5b90d87e2bd9fce9.svg",
     "static/media/Sage.jpeg": "/cafe-menu/static/media/Sage.492af281265f907a4d35.jpeg",
@@ -12,12 +12,12 @@
     "static/media/nuts.jpeg": "/cafe-menu/static/media/nuts.cbf462586578dc910186.jpeg",
     "static/media/iceglass.jpeg": "/cafe-menu/static/media/iceglass.73bffd2f5e0c0840892f.jpeg",
     "index.html": "/cafe-menu/index.html",
-    "main.8e2eb0f8.css.map": "/cafe-menu/static/css/main.8e2eb0f8.css.map",
-    "main.f3039f6e.js.map": "/cafe-menu/static/js/main.f3039f6e.js.map",
+    "main.bec6b71f.css.map": "/cafe-menu/static/css/main.bec6b71f.css.map",
+    "main.d7d113a4.js.map": "/cafe-menu/static/js/main.d7d113a4.js.map",
     "453.66486f9d.chunk.js.map": "/cafe-menu/static/js/453.66486f9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e2eb0f8.css",
-    "static/js/main.f3039f6e.js"
+    "static/css/main.bec6b71f.css",
+    "static/js/main.d7d113a4.js"
   ]
 }
