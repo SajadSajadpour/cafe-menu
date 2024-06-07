@@ -2,10 +2,10 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlassCheers, faSmoking, faIceCream, faCookieBite } from '@fortawesome/free-solid-svg-icons';
+import { faSmoking, faIceCream, faCookieBite ,faGlassWater} from '@fortawesome/free-solid-svg-icons';
 
 const icons = {
-  Drinks: faGlassCheers,
+  Drinks: faGlassWater,
   Shisha: faSmoking,
   Desserts: faIceCream,
   Snacks: faCookieBite,
